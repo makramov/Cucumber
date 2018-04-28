@@ -1,0 +1,3 @@
+stepDefinition/logInlogOut.class
+stepDefinition/setUpandtearDown.class
+testRunner/testRunner.class
