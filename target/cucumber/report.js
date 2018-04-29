@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2997196281,
+  "duration": 2877194590,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,39 +47,39 @@ formatter.match({
   "location": "logInlogOut.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 147229401,
+  "duration": 635498976,
   "status": "passed"
 });
 formatter.match({
   "location": "logInlogOut.user_gives_correct_credentials()"
 });
 formatter.result({
-  "duration": 1746903871,
+  "duration": 1820520928,
   "status": "passed"
 });
 formatter.match({
   "location": "logInlogOut.verify_user_logged_in()"
 });
 formatter.result({
-  "duration": 47413545,
+  "duration": 72956647,
   "status": "passed"
 });
 formatter.match({
   "location": "logInlogOut.ser_clickd_logged_out()"
 });
 formatter.result({
-  "duration": 1454838222,
+  "duration": 1477012642,
   "status": "passed"
 });
 formatter.match({
   "location": "logInlogOut.verify_user_logged_out()"
 });
 formatter.result({
-  "duration": 41884538,
+  "duration": 41592567,
   "status": "passed"
 });
 formatter.after({
-  "duration": 98791877,
+  "duration": 101548345,
   "status": "passed"
 });
 formatter.uri("LoginDataDriver.feature");
@@ -91,7 +91,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2166674146,
+  "duration": 1984594964,
   "status": "passed"
 });
 formatter.scenario({
@@ -121,7 +121,7 @@ formatter.match({
   "location": "logInlogOut.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 10774196,
+  "duration": 36526478,
   "status": "passed"
 });
 formatter.match({
@@ -138,18 +138,18 @@ formatter.match({
   "location": "logInlogOut.datadriver(String,String)"
 });
 formatter.result({
-  "duration": 1946197057,
+  "duration": 2013321964,
   "status": "passed"
 });
 formatter.match({
   "location": "logInlogOut.verify_user_logged_in()"
 });
 formatter.result({
-  "duration": 49598391,
+  "duration": 41158216,
   "status": "passed"
 });
 formatter.after({
-  "duration": 98967082,
+  "duration": 100812230,
   "status": "passed"
 });
 formatter.uri("LoginDataDriver2.feature");
@@ -161,7 +161,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2127544177,
+  "duration": 2060540540,
   "status": "passed"
 });
 formatter.scenario({
@@ -192,7 +192,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
+  "line": 8,
   "name": "Verify user logged ins",
   "keyword": "Then "
 });
@@ -200,25 +200,25 @@ formatter.match({
   "location": "logInlogOut.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 14759546,
+  "duration": 7086840,
   "status": "passed"
 });
 formatter.match({
   "location": "logInlogOut.tableCheck(DataTable)"
 });
 formatter.result({
-  "duration": 2001438122,
+  "duration": 1397730870,
   "status": "passed"
 });
 formatter.match({
   "location": "logInlogOut.verify_user_logged_in()"
 });
 formatter.result({
-  "duration": 60083293,
+  "duration": 524690430,
   "status": "passed"
 });
 formatter.after({
-  "duration": 97402976,
+  "duration": 94037900,
   "status": "passed"
 });
 formatter.uri("LoginNegative.feature");
@@ -264,48 +264,40 @@ formatter.examples({
     {
       "cells": [
         "",
-        ""
+        "admin"
       ],
       "line": 9,
       "id": "neglogin;neglogin,-logout;;2"
     },
     {
       "cells": [
-        "",
-        "admin"
+        "admin",
+        ""
       ],
       "line": 10,
       "id": "neglogin;neglogin,-logout;;3"
     },
     {
       "cells": [
-        "admin",
-        ""
+        "admi",
+        "admin"
       ],
       "line": 11,
       "id": "neglogin;neglogin,-logout;;4"
     },
     {
       "cells": [
-        "admi",
-        "admin"
-      ],
-      "line": 12,
-      "id": "neglogin;neglogin,-logout;;5"
-    },
-    {
-      "cells": [
         "admin",
         "admi"
       ],
-      "line": 13,
-      "id": "neglogin;neglogin,-logout;;6"
+      "line": 12,
+      "id": "neglogin;neglogin,-logout;;5"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2148739734,
+  "duration": 2080547845,
   "status": "passed"
 });
 formatter.scenario({
@@ -313,47 +305,6 @@ formatter.scenario({
   "name": "NegLogIn, LogOut",
   "description": "",
   "id": "neglogin;neglogin,-logout;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "User is in login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "Enter  then  and clicl login button",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.match({
-  "location": "logInlogOut.user_is_in_login_page()"
-});
-formatter.result({
-  "duration": 7720634,
-  "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.after({
-  "duration": 95045798,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2061189677,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "NegLogIn, LogOut",
-  "description": "",
-  "id": "neglogin;neglogin,-logout;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -375,7 +326,7 @@ formatter.match({
   "location": "logInlogOut.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 14401240,
+  "duration": 13364749,
   "status": "passed"
 });
 formatter.match({});
@@ -383,18 +334,18 @@ formatter.result({
   "status": "undefined"
 });
 formatter.after({
-  "duration": 96274362,
+  "duration": 97196262,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2089230002,
+  "duration": 2015851721,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 11,
+  "line": 10,
   "name": "NegLogIn, LogOut",
   "description": "",
-  "id": "neglogin;neglogin,-logout;;4",
+  "id": "neglogin;neglogin,-logout;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -416,7 +367,7 @@ formatter.match({
   "location": "logInlogOut.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 13003187,
+  "duration": 8977362,
   "status": "passed"
 });
 formatter.match({});
@@ -424,18 +375,18 @@ formatter.result({
   "status": "undefined"
 });
 formatter.after({
-  "duration": 91139342,
+  "duration": 100143010,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2017763970,
+  "duration": 2074831175,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
+  "line": 11,
   "name": "NegLogIn, LogOut",
   "description": "",
-  "id": "neglogin;neglogin,-logout;;5",
+  "id": "neglogin;neglogin,-logout;;4",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -457,7 +408,7 @@ formatter.match({
   "location": "logInlogOut.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 33194214,
+  "duration": 8469221,
   "status": "passed"
 });
 formatter.match({
@@ -474,22 +425,22 @@ formatter.match({
   "location": "logInlogOut.user_gives_incorrect_credentials(String,String)"
 });
 formatter.result({
-  "duration": 599351199,
+  "duration": 599242955,
   "status": "passed"
 });
 formatter.after({
-  "duration": 92202166,
+  "duration": 95121985,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2072255243,
+  "duration": 2419060074,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
+  "line": 12,
   "name": "NegLogIn, LogOut",
   "description": "",
-  "id": "neglogin;neglogin,-logout;;6",
+  "id": "neglogin;neglogin,-logout;;5",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -511,7 +462,7 @@ formatter.match({
   "location": "logInlogOut.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 11864613,
+  "duration": 12777973,
   "status": "passed"
 });
 formatter.match({
@@ -528,11 +479,11 @@ formatter.match({
   "location": "logInlogOut.user_gives_incorrect_credentials(String,String)"
 });
 formatter.result({
-  "duration": 801599663,
+  "duration": 1034940652,
   "status": "passed"
 });
 formatter.after({
-  "duration": 92846944,
+  "duration": 95204426,
   "status": "passed"
 });
 });

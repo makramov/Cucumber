@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 import java.io.IOException;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 
@@ -28,6 +30,7 @@ public class logInlogOut extends base {
 	public void user_is_in_login_page() throws IOException, InterruptedException {
 
 		driver.getTitle();
+	
 
 	}
 
@@ -37,6 +40,7 @@ public class logInlogOut extends base {
 		lp.loginPageUserName().sendKeys("admin");
 		lp.loginPageUserpassord().sendKeys("admin");
 		lp.loginPageUserLoginButton().click();
+	
 
 	}
 
@@ -66,8 +70,8 @@ public class logInlogOut extends base {
 
 	@Then("^Verify user logged ins$")
 	public void verify_user_logged_in() {
-		
-		String actual=hp.homePageWelcomeAdmin().getText();
+
+		String actual = hp.homePageWelcomeAdmin().getText();
 		String expected = "Welcome Admin";
 		assertEquals(expected, actual);
 	}
@@ -77,7 +81,7 @@ public class logInlogOut extends base {
 		hp.homePageWelcomeAdmin().click();
 		Thread.sleep(1000);
 		hp.homePageLogOut().click();
-		
+
 	}
 
 	@And("^Verify user logget out$")
