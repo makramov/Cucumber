@@ -15,7 +15,7 @@ public class homeObject {
 		}
 		
 		By homePageWelcomeAdmin = By.xpath("//a[@id='welcome']");
-		By homePageLogOut = By.xpath("//div[@id='welcome-menu']/ul//li[1]/a");
+		By homePageLogOut = By.xpath("//div[@id='welcome-menu']/ul//li[2]/a");
 		
 		public WebElement homePageWelcomeAdmin() {
 		return	driver.findElement(homePageWelcomeAdmin);
